@@ -6,12 +6,12 @@ Program made in Java using Eclipse IDE. Loaded as Maven project.
 
 To start the program run RunGameOfLife.java file in gameoflife-bcouston\src\main\java\bbc\codingtests\run.
 
-Program by default demonstates Scenario 6 specified in the Game of Life Exercise Description.
+Program by default demonstrates Scenario 6 specified in the Game of Life Exercise Description.
 Different game states can be produced by altering the 'seed' String variable defined in RunGameOfLife.java containing '*' for a live cell, '.' for a dead cell and '\n' for a row break.
 Alternatively, a text file input can be provided as long as the text file is located in the working directory ( gameoflife-bcouston\).
 An example text file input is provided in Scenario6.txt. Note that unlike a manually inputted seed String, row breaks must be specified by an actual line break in the file.
 
-CMD arguments can be provided to inidcate the desired input of the text file as well as other features. Namely:
+CMD arguments can be provided to inidicate the desired input of the text file as well as other features. Namely:
 
 	* Option 1 - No arguments
 	* Program is ran with the format of Scenario 6 provided in the Exercise description.
@@ -30,4 +30,4 @@ CMD arguments can be provided to inidcate the desired input of the text file as 
 	
 All tests pass with a total of 19 tests spread across LifeTest.java and GameStateTest.java.
 
-Please email if there any questions.
+Please email if there are any questions.
